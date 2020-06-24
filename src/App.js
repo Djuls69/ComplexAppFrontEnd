@@ -121,7 +121,7 @@ const App = () => {
             <Route path='/about' component={About} />
             <Route path='/terms' component={Terms} />
             <Route path='/create-post' component={CreatePost} />
-            <Route path='/post/:id' component={ViewSinglePost} />
+            <Route exact path='/post/:id' component={ViewSinglePost} />
             <Route path='/post/:id/edit' component={EditPost} />
             <Route path='/profile/:username' component={Profile} />
             <Route path='/' exact>
